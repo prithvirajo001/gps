@@ -96,7 +96,15 @@ if(nok){
 
 
 //-----------------------------------------entered the app---------------------------------------//
-document.getElementById("card").setAttribute("style","display:none;")
+
+
+
+
+
+
+
+function secondPage(){
+ document.getElementById("card").setAttribute("style","display:none;")
 document.getElementById("card2").setAttribute("style","display:none;")
 document.getElementById("card3").setAttribute("style","display:none;")
 document.getElementById("h").setAttribute("style","display:none;")
@@ -203,23 +211,6 @@ document.getElementById("usrnm").innerText=lusername;
   }
 });
 
-
-
-
-
-
-
-function secondPage(){
-   alert("USER VERIIFIED")
-   document.getElementById("card").setAttribute("style","display:none;")
-   document.getElementById("card2").setAttribute("style","display:none;")
-   document.getElementById("card3").setAttribute("style","display:none;")
-   document.getElementById("h").setAttribute("style","display:none;")
-   document.getElementById("body1").setAttribute("style","backround:black;")
-
-   document.getElementById("maindivapp").setAttribute("style","display:block;") 
-   document.getElementById("divtoshnm").innerHTML=`<h2 id="weluser" class="weluser">HELLO__ ${lusername}___ REGISTER YOUR ATTENDANCE HERE!</h2>
-`;
 
 
 };
